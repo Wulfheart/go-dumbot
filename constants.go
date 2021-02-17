@@ -1,4 +1,4 @@
-package dumb_bot
+package hadrian
 
 const (
 	// Importance of attacking centres we don't own, in Spring
@@ -109,7 +109,7 @@ func getConstRemoveProximityWeightArry() []Weighting {
 }
 
 // Helper function for these arrays
-func getWeightingFromConstWeightArray(arr []Weighting, n int) Weighting{
+func getWeightingFromConstWeightArray(arr []Weighting, n int) Weighting {
 	if n >= len(arr) {
 		return 0
 	} else {

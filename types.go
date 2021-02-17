@@ -1,3 +1,4 @@
-package dumb_bot
+package hadrian
 
 type Weighting int64
+
